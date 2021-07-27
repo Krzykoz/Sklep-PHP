@@ -1,0 +1,233 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+#container {
+    width: 100%;
+    float: left;
+}
+
+#banner {
+    padding: 2%;
+    float: left;
+    width: 96%;
+    height: 30vh;
+    background-image: url(banner.jpg);
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+#banner a{
+    color: white;
+    text-decoration: none;
+}
+
+#hmenu{
+    width: 100%;
+    height: 40%;
+}
+
+#bannerMenu {
+    float: right;
+    font-size: 10px;
+    height: 40%;
+    text-align: right;
+}
+
+#bannerMenu a {
+    color: white;
+
+}
+
+#bannerMenu input {
+    border: white 2px solid;
+    box-shadow: none;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+#categories{
+    float: left;
+    width: 15%;
+    padding: 1%;
+
+}
+
+#items{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   /* You can set flex-wrap and
+      flex-direction individually */
+   flex-direction: row;
+   flex-wrap: wrap;
+   /* Or do it all in one line
+     with flex flow */
+   flex-flow: row wrap;
+   /* tweak where items line
+      up on the row
+      valid values are: flex-start,
+      flex-end, space-between,
+      space-around, stretch */
+   align-content: flex-end;
+    flex-wrap: wrap;
+    float: left;
+    width: 80%;
+    padding: 1%;
+
+}
+
+.errormessage{
+    height: 40px;
+    width: 97%;
+    display: flex;
+    border: solid 2px #bd1717;
+    color: #bd1717;
+    background-color: #ffa7a7;
+    border-radius: 0.7em;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.goodmessage{
+    height: 40px;
+    width: 97%;
+    display: flex;
+    border: solid 2px #1c7900;
+    color: #1c7900;
+    background-color: #9ada86;
+    border-radius: 0.7em;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.hpprod{
+    text-align: center;
+    border: solid black 2px;
+    width: 220px;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+}
+
+.cartprod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1%;
+    width: 70%;
+    float: left;
+    padding: 1%;
+    border: solid 2px black;
+}
+
+.cartimg{
+    float: left;
+    border: solid 2px black;
+}
+
+.cartcontent{
+    
+}
+
+#checkout{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    width: 70%;
+    float: left;
+    padding: 1%;
+    border: solid 2px black;
+}
+
+#checkoutfinal{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    width: 95%;
+    float: left;
+    padding: 1%;
+    border: solid 2px black;
+}
+
+.checkoutcontent{
+    margin: 0.5%;
+    padding: 1%;
+    border: solid 1px black;
+}
+
+#checkoutcontainer{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    float: left;
+
+}
+
+.checkoutprod{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1%;
+    width: 95%;
+    float: left;
+    padding: 1%;
+    border: solid 2px black;
+}
+
+.shipping{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1%;
+    width: 95%;
+    float: left;
+    padding: 1%;
+    border: solid 2px black;
+}
+.shipping input{
+    padding: 0.5%;
+    margin: 0.5%;
+}
+.buy{
+    margin-top: 2%;
+    padding: 2%;
+    border: solid 2px #1c7900;
+    color: #1c7900;
+    background-color: #9ada86;
+    font-weight: bold;
+    border-radius: 0.5em;
+}
+
+.delete{
+    margin-top: 2%;
+    padding: 2%;
+    border: solid 2px #bd1717;
+    color: #bd1717;
+    background-color: #ffa7a7;
+    font-weight: bold;
+    border-radius: 0.5em;
+}
+
+#search{
+    width: 80%;
+}
+
+.example1 a:link {color:forestgreen;}
+.example1 a:visited {color:seagreen;}
+.example1 a:hover {text-decoration:none;color:yellowgreen;font-weight:bold;}
+.example1 a:active {color:red;text-decoration: none}

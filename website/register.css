@@ -1,0 +1,12 @@
+#container{
+    width: 100%;
+    height: 100vh;
+}
+
+#form{
+    margin: auto;
+    border: solid 2px black;
+    padding: 2%;
+    height: 40%;
+    width: 20%;
+}
